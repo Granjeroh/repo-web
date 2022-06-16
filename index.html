@@ -6,45 +6,55 @@
     <title>Cafe</title>
     
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
 
     <!-- NAV PERO SIN MEJORAR -->
-<div class="container-fluid" style="background-color:lightgrey; height: 50px;">
+    <div class="container-fluid"  style="background-color: rgb(95,101,80, 0.1);">
+      <div class="row">
+        <span class="col-1">logo</span>
+        <span class="col-4"></span>
+        <a class= "col-4" href="index.html"><h2>Centro Cafe</h2></a>
+     <div class="col-3 d-grid gap-2 d-md-flex justify-content-md-end"><a href="contacto.html" class="btn btn-primary">Contacto</a></div>
+    </div>
+
+  </div>
+<!-- <div class="container-fluid" style="background-color:lightgrey; height: 50px;">
     <div class="row ">
         <div class="col-1 border ">Logo</div>
         <div class="col-3"></div>
         <div class="col-5">Centro cafe</div>
         <div class="col-3"><a href="contacto.html" class="btn btn-primary">Contacto</a></div>
-    </div></div>
+    </div></div> -->
  
 
     <!-- Contenedor de imagenes -->
 <div class="container-fluid">
     <div class="row">
         <div class="card col-md-4 col-lg-3" style="height: auto;">
-    <img class="card-img-top" src="./imagenes/comidas.jpg" alt="Card image cap">
+    <img data-aos="fade-down-right" data-aos-duration='4000' data-aos-delay="300" class="card-img-top itemscale" src="./imagenes/comidas.jpg" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Comidas</h5>
       <a href="./Comidas.html" class="btn btn-primary">Menu de comidas</a>
     </div>
   </div>
   <div class="card col-md-4 col-lg-3" style="height: auto;">
-    <img class="card-img-top" src="./imagenes/Meriendas.jpg" alt="Card image cap">
+    <img data-aos="fade-up" data-aos-duration='4000' data-aos-delay="600" class="card-img-top " src="./imagenes/Meriendas.jpg" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Meriendas</h5>
       <a href="./Meriendas.html" class="btn btn-primary">Menu de meriendas</a>
     </div>
   </div>
   <div class="card col-md-4 col-lg-3" style="height: auto;">
-    <img class="card-img-top " src="./imagenes/bebidas.jpg" alt="Card image cap">
+    <img data-aos="fade-up" data-aos-duration='4000' data-aos-delay="600" class="card-img-top " src="./imagenes/bebidas.jpg" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Bebidas</h5>
       <a href="./Bebidas.html" class="btn btn-primary">Menu de bebidas</a>
     </div>
   </div>
   <div class="card col-md-4 col-lg-3" style="height: auto;">
-    <img class="card-img-top" src="./imagenes/postres.jpg" alt="Card image cap">
+    <img data-aos="fade-down-left" data-aos-duration='4000' data-aos-delay="300" class="card-img-top " src="./imagenes/postres.jpg" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Postres</h5>
       <p class="card-text">Contamos con una variedad inmensa de postres.</p>
@@ -72,8 +82,8 @@
 
  
           <!-- Formulario final -->
-<form><div class="container mt-5">
-    <div class="form-group">
+<form class="container mt-5">
+    <div class="form-group border border-dark">
         <label>Cuentanos como nos conociste</label>
       <input type="text" class="form-control">
       <small class="form-text text-muted">
@@ -82,7 +92,6 @@
 
       <label for="exampleInputEmail1">Email</label>
       <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ejemplo@gmail.com">
-    </div>
     <div class="form-group">
       <label for="exampleInputPassword1">Contraseña</label>
       <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
@@ -96,6 +105,15 @@
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      easing: 'ease-out-back',
+      duration: 1000
+    });
+  </script>
+
+<!-- https://github.com/michalsnik/aos/blob/next/README.md Pagina de animaciones-->
 </body>
 
 </html>
