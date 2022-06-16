@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Cafe</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
   <div class="container-fluid"  style="background-color: rgb(95,101,80, 0.1);">
     <div class="row">
       <span class="col-1">logo</span>
       <span class="col-4"></span>
-      <a class= "col-4" href="index.html"><h2>Centro Cafe</h2></a>
+      <a class= "col-4" data-aos="slide-right" data-aos-duration="6000" href="index.html"><h2>Centro Cafe</h2></a>
    <div class="col-3 d-grid gap-2 d-md-flex justify-content-md-end"><a href="contacto.html" class="btn btn-primary">Contacto</a></div>
   </div>
 
@@ -20,27 +21,27 @@
     <div class="container-fluid">
         <div class="row">
             <div class="card col-md-4 col-lg-3" style="height: auto;">
-        <img class="card-img-top" src="./imagenes/Pizza.jpg" alt="Card image cap">
+        <img data-aos="fade-up" data-aos-duration='4000' data-aos-delay="300" class="card-img-top" src="./imagenes/Pizza.jpg" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Muzzarella</h5>
 
         </div>
       </div>
       <div class="card col-md-4 col-lg-3" style="height: auto;">
-        <img class="card-img-top" src="./imagenes/Pizza.jpg" alt="Card image cap">
+        <img data-aos="fade-up" data-aos-duration='4000' data-aos-delay="300" class="card-img-top" src="./imagenes/Pizza.jpg" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Doble Muzza</h5>
 
         </div>
       </div>
       <div class="card col-md-4 col-lg-3" style="height: auto;">
-        <img class="card-img-top " src="./imagenes/pizza_con_huevo.jpg" alt="Card image cap">
+        <img data-aos="fade-up" data-aos-duration='4000' data-aos-delay="300" class="card-img-top " src="./imagenes/pizza_con_huevo.jpg" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Muzza con huevo</h5>
         </div>
       </div>
       <div class="card col-md-4 col-lg-3" style="height: auto;">
-        <img class="card-img-top" src="./imagenes/Pnapo.jpg" alt="Card image cap">
+        <img data-aos="fade-up" data-aos-duration='4000' data-aos-delay="300" class="card-img-top" src="./imagenes/Pnapo.jpg" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Muzza napolitana</h5>
         </div>
@@ -50,7 +51,7 @@
     
     
     
-    <form><div class="container mt-5 border-dark border">
+    <form data-aos="fade-up" data-aos-duration='4000' data-aos-delay="300" class="container mt-5 border-dark border">
         <div class="form-group">
             <label>Cuentanos como nos conociste</label>
           <input type="text" class="form-control">
@@ -71,9 +72,16 @@
         </div>
         <button type="submit" class="btn btn-primary">Enviar</button>
       </form>
-    </div>
+  
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      easing: 'ease-out-back',
+      duration: 1000
+    });
+  </script>
 </body>
 </html>
