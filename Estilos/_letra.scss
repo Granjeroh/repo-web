@@ -1,0 +1,18 @@
+@mixin Sizefont ($color, $fontsize, $fontfamily, $bcolor) {
+    background-color: $bcolor;
+    font-family: $fontfamily;
+    text-transform: uppercase;
+    color: $color;
+    display: flex;
+    font-size: $fontsize;
+    
+}
+
+.principal{
+    flex-direction: row;
+    justify-content: center;
+    @include Sizefont(lightgrey, 18px, 'Times New Roman', black);  
+}
+.secondtitle{
+    @include Sizefont(black, 17px, 'Times New Roman', lightgrey);
+}

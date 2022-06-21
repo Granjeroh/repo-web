@@ -1,0 +1,36 @@
+.principal {
+  flex-direction: row;
+  justify-content: center;
+  background-color: black;
+  font-family: "Times New Roman";
+  text-transform: uppercase;
+  color: lightgrey;
+  display: flex;
+  font-size: 18px;
+}
+
+.secondtitle {
+  background-color: lightgrey;
+  font-family: "Times New Roman";
+  text-transform: uppercase;
+  color: black;
+  display: flex;
+  font-size: 17px;
+}
+
+.imagh {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.imheight {
+  height: auto;
+}
+
+.escalado:hover {
+  transform: scale(1.2);
+  text-align: initial;
+}/*# sourceMappingURL=style.css.map */
