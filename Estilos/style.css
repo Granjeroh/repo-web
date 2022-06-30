@@ -1,21 +1,22 @@
-.principal {
+.principal, .secondtitle, .principal--size {
   flex-direction: row;
   justify-content: center;
-  background-color: black;
-  font-family: "Times New Roman";
   text-transform: uppercase;
-  color: lightgrey;
   display: flex;
-  font-size: 18px;
+}
+
+.principal--size {
+  color: lightgrey;
+  font-size: 20px;
+  font-family: "Times New Roman";
+  background-color: black;
 }
 
 .secondtitle {
-  background-color: lightgrey;
-  font-family: "Times New Roman";
-  text-transform: uppercase;
   color: black;
-  display: flex;
-  font-size: 17px;
+  font-size: 18px;
+  font-family: "Times New Roman";
+  background-color: lightgrey;
 }
 
 .imagh {
