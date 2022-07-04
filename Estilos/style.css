@@ -19,6 +19,11 @@
   background-color: lightgrey;
 }
 
+.principal--footer {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
 .imagh {
   background-size: cover;
   background-position: center;
@@ -31,7 +36,36 @@
   height: auto;
 }
 
+.bgimagcafe {
+  background-image: url(../imagenes/fondocard.jpg);
+  color: black;
+}
+
+.imglogo {
+  height: 10px;
+}
+
+.alturafooter {
+  height: 100px;
+}
+
 .escalado:hover {
   transform: scale(1.2);
   text-align: initial;
+}
+
+.bgcolornav {
+  background-color: rgb(19, 18, 18);
+}
+
+.bgcolorcard {
+  background-color: rgb(145, 99, 1);
+}
+
+.colorfooter {
+  color: white;
+}
+
+.colorboton {
+  color: black;
 }/*# sourceMappingURL=style.css.map */

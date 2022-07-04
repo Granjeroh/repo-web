@@ -13,41 +13,50 @@
     <link rel="stylesheet" href="./Estilos/style.css">
 </head>
 <body>
-  <div class="container-fluid"  style="background-color: rgb(95,101,80, 0.1);">
+
+  
+  <div class="container-fluid bgcolornav">
     <div class="row">
-      <span class="col-1">logo</span>
-      <span class="col-4"></span>
-      <a class= "col-2" data-aos="slide-right" data-aos-duration="6000" href="index.html"><h2>Centro Cafe</h2></a>
+      <img class="col-2" src="./imagenes/logo.png" style="height:50px">
+      <span class="col-3"></span>
+      <a class= "col-2" data-aos="slide-right" data-aos-duration="6000" href="index.html"><h2 class=" escalado" >Centro Cafe</h2></a>
       <span class="col-2"></span>
-   <div class="col-3 d-grid gap-2 d-md-flex justify-content-md-end"><a href="contacto.html" class="btn btn-primary">Contacto</a></div>
+   <div class="col-3 d-grid gap-2 d-md-flex justify-content-md-end"><a data-aos="slide-right" data-aos-duration="4000" href="contacto.html" class="btn btn-primary bgimagcafe">Contacto</a></div>
   </div>
+
 
 </div>
 
-
+<div
+  class="bg-image"
+  style="
+    background-image: url('https://i.pinimg.com/564x/cb/fc/9e/cbfc9e7563c254216d3ae8ddddef0353.jpg');
+    height: 100%;
+  "
+> <!-- Contenedor de imagenes -->
     <div class="container-fluid">
         <div class="row">
-            <div class="card col-md-6 col-lg-3 imheight">
+            <div class="card col-md-6 col-lg-3 imheight bgimagcafe">
         <img data-aos="fade-up" data-aos-duration='4000' data-aos-delay="300" class="card-img-top imagh" src="./imagenes/helado.jpg" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title principal">Helado</h5>
 
         </div>
       </div>
-      <div class="card col-md-6 col-lg-3 imheight">
+      <div class="card col-md-6 col-lg-3 imheight bgimagcafe">
         <img data-aos="fade-up" data-aos-duration='4000' data-aos-delay="300" class="card-img-top imagh" src="./imagenes/brownie.jpg" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title principal">Brownie</h5>
 
         </div>
       </div>
-      <div class="card col-md-6 col-lg-3 imheight">
+      <div class="card col-md-6 col-lg-3 imheight bgimagcafe">
         <img data-aos="fade-up" data-aos-duration='4000' data-aos-delay="300" class="card-img-top imagh" src="./imagenes/flan.jpg" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title principal">Flan</h5>
         </div>
       </div>
-      <div class="card col-md-6 col-lg-3 imheight">
+      <div class="card col-md-6 col-lg-3 imheight bgimagcafe">
         <img data-aos="fade-up" data-aos-duration='4000' data-aos-delay="300" class="card-img-top imagh" src="./imagenes/ensaladadefruta.jpg" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title principal">Ensalada de fruta</h5>
@@ -55,31 +64,29 @@
       </div>
     </div>
     </div>
+<!-- Esto es el texto -->
+    <div class="container mt-5">
+      <div class="row justify-content-center">
+  
+  <div class="card col-auto">
+      <img data-aos="fade-up" data-aos-duration='4000' data-aos-delay="600" class="card-img-top" src="./imagenes/centro-cafe.jpg" alt="Card image cap" style="height: 100%;">
+      <div class="card-body">
+        <h4 class="card-title">Centro cafe</h4>
+        <p class="card-text secondtitle">Somos una empresa familiar radicada en capital federal, ubicada a metros del obelisco.<br> Inauguramos nuestra cafeteria en 1996, desde ese momento compartimos tardes inolvidables junto a muchas personas</p>
+      </div>
+    </div>
+   </div>
+  </div> 
+  </div>
     
-    
-    
-    <form data-aos="fade-up" data-aos-duration='4000' data-aos-delay="300" class="container mt-5 border border-dark">
-        <div class="form-group">
-            <label>Cuentanos como nos conociste</label>
-          <input type="text" class="form-control">
-          <small class="form-text text-muted">
-    
-          </small>
-    
-          <label for="exampleInputEmail1">Email</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ejemplo@gmail.com">
-        </div>
-        <div class="form-group">
-          <label for="exampleInputPassword1">Contraseña</label>
-          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
-        </div>
-        <div class="form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Verificar</label>
-        </div>
-        <button type="submit" class="btn btn-primary">Enviar</button>
-      </form>
-    
+             <!-- Footer -->
+<div class="container-fluid">
+  <div class="row bgcolornav">
+  <div class="col-2 colorfooter">Derechos de autor reservados</div>
+  <div class="col-3"></div>
+  <div class="col-7"><p class="colorfooter principal--footer">Visitanos!</p></div>
+</div>
+</div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>

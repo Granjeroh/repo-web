@@ -21,7 +21,7 @@ pxextrasmall : 13px
     flex-direction: row;
     justify-content: center;
     text-transform: uppercase;
-    display: flex;  
+    display: flex;
 }
 .principal--size{
     @extend .principal;
@@ -32,4 +32,9 @@ pxextrasmall : 13px
 .secondtitle{
     @extend .principal;
     @include Sizefont(black, map-get($sizeletras , pxmedium) , 'Times New Roman', lightgrey);
+}
+
+.principal--footer {
+    text-transform: uppercase;
+    font-size: 20px;
 }
