@@ -4,9 +4,16 @@
 .bgcolorcard {
     background-color: rgb(145, 99, 1);
 }
-.colorfooter {
+.colorwhite {
     color: white;
 }
 .colorboton {
     color: black;
+}
+
+.whitebackblack {
+    @extend .bgcolornav;
+    color: white;
+     
+    
 }

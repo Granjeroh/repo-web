@@ -14,61 +14,88 @@
 </head>
 <body>
 
-  
-  <div class="container-fluid bgcolornav">
-    <div class="row">
-      <img class="col-2" src="./imagenes/logo.png" style="height:50px">
-      <span class="col-3"></span>
-      <a class= "col-2" data-aos="slide-right" data-aos-duration="6000" href="index.html"><h2 class=" escalado" >Centro Cafe</h2></a>
-      <span class="col-2"></span>
-   <div class="col-3 d-grid gap-2 d-md-flex justify-content-md-end"><a data-aos="slide-right" data-aos-duration="4000" href="contacto.html" class="btn btn-primary bgimagcafe">Contacto</a></div>
+ <!-- NAV PERO SIN MEJORAR -->
+ <div class="container-fluid bgcolornav">
+  <div class="row">
+    <img class="col-2" src="./imagenes/logo.png" style="height: 50px" />
+    <div class="col-3"></div>
+    <div class="col-4"></div>
+    <div class="col-1"><div class="dropdown ">
+      <button class="btn btn-secondary dropdown-toggle bgimagcafe " style="height: 50px" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        Productos
+      </button>
+      <ul class="dropdown-menu bgimagcafe derechos-footer" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item" href="./Bebidas.html">Bebidas</a></li>
+        <li><a class="dropdown-item" href="./Meriendas.html">Meriendas</a></li>
+        <li><a class="dropdown-item" href="./Comidas.html">Comidas</a></li>
+        <li><a class="dropdown-item" href="./Postre.html">Postres</a></li>
+      </ul>
+    </div></div>
+
+    <div class="col-1 d-md-flex justify-content-md-end">
+      <a
+        type="button"
+        class="btn btn-primary bgimagcafe"
+        href="index.html"
+        data-aos="slide-right"
+        data-aos-duration="4000"
+        >Home</a
+      >
+    </div>
+    <div class="col-1 d-md-flex justify-content-md-end">
+      <a
+        data-aos="slide-right"
+        data-aos-duration="4000"
+        href="contacto.html"
+        class="btn btn-primary bgimagcafe"
+        >Contacto</a
+      >
+    </div>
   </div>
-
-
 </div>
+
+<!-- IMAGEN DE FONDO -->
 <div
-class="bg-image"
-style="
-  background-image: url('https://i.pinimg.com/564x/cb/fc/9e/cbfc9e7563c254216d3ae8ddddef0353.jpg');
-  height: 100%;
-"
-> <!-- Contenedor de imagenes -->
+class="bgimagcontacto">
+
+<!-- Contenedor de imagenes -->
     <div class="container-fluid">
         <div class="row">
-            <div class="card col-md-6 col-lg-3 imheight bgimagcafe">
-        <img data-aos="fade-down-right" data-aos-duration='4000' data-aos-delay="300" class="card-img-top imagh" src="./imagenes/aquariusmanzana.jpg" alt="Card image cap">
+            <div class="card col-md-6 col-lg-3 imgcard bgimagcafe ">
+        <img data-aos="fade-down-right" data-aos-duration='4000' data-aos-delay="300" class="card-img-top imgcard" src="./imagenes/aquariusmanzana.jpg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title principal">Aquarius manzana</h5>
+          <h5 class="card-title principal whitebackblack">Aquarius manzana</h5>
 
         </div>
       </div>
-      <div class="card col-md-6 col-lg-3 imheight bgimagcafe">
-        <img data-aos="fade-up" data-aos-duration='4000' data-aos-delay="300" class="card-img-top imagh" src="./imagenes/Leviteman.jpg" alt="Card image cap">
+      <div class="card col-md-6 col-lg-3 imgcard bgimagcafe ">
+        <img data-aos="fade-up" data-aos-duration='4000' data-aos-delay="300" class="card-img-top imgcard" src="./imagenes/levite manzana.webp" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title principal">Levite manzana</h5>
+          <h5 class="card-title principal whitebackblack">Levite manzana</h5>
 
         </div>
       </div>
-      <div class="card col-md-6 col-lg-3 imheight bgimagcafe">
-        <img data-aos="fade-up" data-aos-duration='4000' data-aos-delay="300" class="card-img-top imagh" src="./imagenes/PFB000177.webp" alt="Card image cap">
+      <div class="card col-md-6 col-lg-3 imgcard bgimagcafe ">
+        <img data-aos="fade-up" data-aos-duration='4000' data-aos-delay="300" class="card-img-top imgcard" src="./imagenes/PFB000177.webp" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title principal">Coca cola</h5>
+          <h5 class="card-title principal whitebackblack">Coca cola</h5>
         </div>
       </div>
-      <div class="card col-md-6 col-lg-3 imheight bgimagcafe">
-        <img data-aos="fade-down-left" data-aos-duration='4000' data-aos-delay="300" class="card-img-top imagh" src="./imagenes/FANTA-NARANJA-X-500-ML.jpg" alt="Card image cap">
+      <div class="card col-md-6 col-lg-3 imgcard bgimagcafe " style="height: 450px ;">
+        <img data-aos="fade-down-left" data-aos-duration='4000' data-aos-delay="300" class="card-img-top imgcard" src="./imagenes/FANTA.webp" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title principal">Fanta</h5>
+          <h5 class="card-title principal whitebackblack">Fanta</h5>
         </div>
       </div>
     </div>
     </div>
+    
     <!-- Esto es el texto -->
-    <div class="container mt-5">
-      <div class="row justify-content-center">
+    <div class="container">
+      <div class="row">
   
-  <div class="card col-auto">
-      <img data-aos="fade-up" data-aos-duration='4000' data-aos-delay="600" class="card-img-top" src="./imagenes/centro-cafe.jpg" alt="Card image cap" style="height: 100%;">
+  <div class="card">
+      <img data-aos="fade-up" data-aos-duration='4000' data-aos-delay="600" class="card-img-top" src="./imagenes/centro-cafe.jpg" alt="Card image cap">
       <div class="card-body">
         <h4 class="card-title">Centro cafe</h4>
         <p class="card-text secondtitle">Somos una empresa familiar radicada en capital federal, ubicada a metros del obelisco.<br> Inauguramos nuestra cafeteria en 1996, desde ese momento compartimos tardes inolvidables junto a muchas personas</p>
@@ -80,9 +107,9 @@ style="
               <!-- Footer -->
 <div class="container-fluid">
   <div class="row bgcolornav">
-  <div class="col-2 colorfooter">Derechos de autor reservados</div>
+  <div class="col-2 derechos-footer">Derechos de autor reservados</div>
   <div class="col-3"></div>
-  <div class="col-7"><p class="colorfooter principal--footer">Visitanos!</p></div>
+  <div class="col-7"><p class="principal--footer">Visitanos!</p></div>
 </div>
 </div>
 

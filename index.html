@@ -16,21 +16,35 @@
     <link rel="stylesheet" href="./Estilos/style.css" />
   </head>
   <body>
-
     <!-- NAV PERO SIN MEJORAR -->
     <div class="container-fluid bgcolornav">
       <div class="row">
         <img class="col-2" src="./imagenes/logo.png" style="height: 50px" />
-        <span class="col-3"></span>
-        <a
-          class="col-2"
-          data-aos="slide-right"
-          data-aos-duration="6000"
-          href="index.html"
-          ><h2 class="escalado">Centro Cafe</h2></a
-        >
-        <span class="col-2"></span>
-        <div class="col-3 d-grid gap-2 d-md-flex justify-content-md-end">
+        <div class="col-3"></div>
+        <div class="col-4"></div>
+        <div class="col-1"><div class="dropdown ">
+          <button class="btn btn-secondary dropdown-toggle bgimagcafe " style="height: 50px" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            Productos
+          </button>
+          <ul class="dropdown-menu bgimagcafe derechos-footer" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="./Bebidas.html">Bebidas</a></li>
+            <li><a class="dropdown-item" href="./Meriendas.html">Meriendas</a></li>
+            <li><a class="dropdown-item" href="./Comidas.html">Comidas</a></li>
+            <li><a class="dropdown-item" href="./Postre.html">Postres</a></li>
+          </ul>
+        </div></div>
+  
+        <div class="col-1 d-md-flex justify-content-md-end">
+          <a
+            type="button"
+            class="btn btn-primary bgimagcafe"
+            href="index.html"
+            data-aos="slide-right"
+            data-aos-duration="4000"
+            >Home</a
+          >
+        </div>
+        <div class="col-1 d-md-flex justify-content-md-end">
           <a
             data-aos="slide-right"
             data-aos-duration="4000"
@@ -42,13 +56,11 @@
       </div>
     </div>
 
-    <div
-      class="bg-image"
-      style="
-        background-image: url('https://i.pinimg.com/564x/cb/fc/9e/cbfc9e7563c254216d3ae8ddddef0353.jpg');
-        height: 100%;
-      "
-    >
+    <!-- IMAGEN DE FONDO -->
+<div
+class="bgimagcontacto">
+
+
       <!-- Contenedor de imagenes -->
       <div class="container-fluid">
         <div class="row">
@@ -153,10 +165,10 @@
     <!-- Footer -->
     <div class="container-fluid">
       <div class="row bgcolornav">
-        <div class="col-2 colorfooter">Derechos de autor reservados</div>
+        <div class="col-2 derechos-footer">Derechos de autor reservados</div>
         <div class="col-3"></div>
         <div class="col-7">
-          <p class="colorfooter principal--footer">Visitanos!</p>
+          <p class="principal--footer">Visitanos!</p>
         </div>
       </div>
     </div>

@@ -6,10 +6,13 @@
     width: 100%;
 }
 
-
 .imheight {
     height: auto;
     
+}
+
+.imgcard {
+    height: 400px;
 }
 
 .bgimagcafe {
@@ -22,4 +25,10 @@
 
 .alturafooter {
     height: 100px;
+}
+
+
+.bgimagcontacto {
+    @extend .imagh;
+    background-image: url(../imagenes/Imagensalon.webp);
 }

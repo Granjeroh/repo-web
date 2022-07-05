@@ -19,12 +19,17 @@
   background-color: lightgrey;
 }
 
-.principal--footer {
+.principal--footer, .derechos-footer {
   text-transform: uppercase;
   font-size: 20px;
+  color: white;
 }
 
-.imagh {
+.derechos-footer {
+  font-size: 16px;
+}
+
+.imagh, .bgimagcontacto {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -34,6 +39,10 @@
 
 .imheight {
   height: auto;
+}
+
+.imgcard {
+  height: 400px;
 }
 
 .bgimagcafe {
@@ -49,12 +58,21 @@
   height: 100px;
 }
 
+.bgimagcontacto {
+  background-image: url(../imagenes/Imagensalon.webp);
+}
+
 .escalado:hover {
   transform: scale(1.2);
   text-align: initial;
 }
 
-.bgcolornav {
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+.bgcolornav, .whitebackblack {
   background-color: rgb(19, 18, 18);
 }
 
@@ -62,10 +80,14 @@
   background-color: rgb(145, 99, 1);
 }
 
-.colorfooter {
+.colorwhite {
   color: white;
 }
 
 .colorboton {
   color: black;
+}
+
+.whitebackblack {
+  color: white;
 }/*# sourceMappingURL=style.css.map */
