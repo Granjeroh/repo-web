@@ -1,116 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Centro cafe-Contacto</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Centro cafe</title>
 
-    <meta name="description" content="El mejor cafe de buenos aires">
-    <meta name="keywords" content="Cena , Meriendas, Cafeteria, Familia"/>
+    <meta name="description" content="El mejor cafe de buenos aires" />
+    <meta name="keywords" content="Cena , Meriendas, Cafeteria, Familia" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="./Estilos/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./Estilos/style.css" />
+  </head>
+  <body>
+
 
  <!-- NAV PERO SIN MEJORAR -->
- <div class="container-fluid bgcolornav">
-  <div class="row">
-    <img class="col-2" src="./imagenes/logo.png" style="height: 50px" />
-    <div class="col-3"></div>
-    <div class="col-4"></div>
-    <div class="col-1"><div class="dropdown ">
-      <button class="btn btn-secondary dropdown-toggle bgimagcafe " style="height: 50px" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+ <div class="container-fluid">
+  <div class="row bgcolornav">
+
+    <!-- LOGO NAV -->
+    <div class="col-2">
+      <a
+        data-aos="slide-right"
+        data-aos-duration="4000"
+        href="index.html"
+        ><img src="./imagenes/logonicolas.png"/></a
+        ></div>
+
+      <!-- EL MEJOR CAFE -->
+      <div class="col-4">  <h1 id="ocultar" class="text-start colorwhite mar2" data-aos="fade-down" data-aos-duration='4000' data-aos-delay="600">The best coffee</h1></div>
+    <div class="col-2"></div>
+    <!-- BOTON DROP LIST -->
+    <div class="col-2 d-md-flex justify-content-md-end"><div class="dropdown ">
+      <button class="btn btn-secondary dropdown-toggle bgimagcafe" style="height: 60px" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
         Productos
       </button>
-      <ul class="dropdown-menu bgimagcafe derechos-footer" aria-labelledby="dropdownMenuButton1">
+
+      <!-- DROP LIST -->
+      <ul class="dropdown-menu bgimagcafe derechos-footer mar2" aria-labelledby="dropdownMenuButton1">
         <li><a class="dropdown-item" href="./Bebidas.html">Bebidas</a></li>
         <li><a class="dropdown-item" href="./Meriendas.html">Meriendas</a></li>
         <li><a class="dropdown-item" href="./Comidas.html">Comidas</a></li>
         <li><a class="dropdown-item" href="./Postre.html">Postres</a></li>
+        <li id="contactooculto"><a class="dropdown-item" href="./contacto.html">Contacto</a> </li>
       </ul>
     </div></div>
-
-    <div class="col-1 d-md-flex justify-content-md-end">
+    <!-- CONTACTO -->
+    <div class="col-2 d-md-flex justify-content-md-center" id="ocultar">
       <a
-        type="button"
-        class="btn btn-primary bgimagcafe"
-        href="index.html"
-        data-aos="slide-right"
-        data-aos-duration="4000"
-        >Home</a
-      >
-    </div>
-    <div class="col-1 d-md-flex justify-content-md-end">
-      <a
+      style="height: 60px"
         data-aos="slide-right"
         data-aos-duration="4000"
         href="contacto.html"
-        class="btn btn-primary bgimagcafe"
+        class="btn btn-outline-light bgimagcafe"
         >Contacto</a
       >
     </div>
-  </div>
-</div>
- <!-- IMAGEN BACKGROUND -->
-<div
-class="bgimagcontacto"
-style="
-  height: auto;
-">
-    <!-- IMAGEN DEL MEDIO ANTES DEL FORM -->
-    <div class="container mt-5">
-      <div class="row justify-content-center">
-  
-  <div class="card col-auto">
-      <img data-aos="fade-up" data-aos-duration='4000' data-aos-delay="600" class="card-img-top" src="./imagenes/centro-cafe.jpg" alt="Card image cap">
-      <div class="card-body">
-        <h4 class="card-title">Centro cafe</h4>
-        <p class="card-text secondtitle">Somos una empresa familiar radicada en capital federal, ubicada a metros del obelisco.<br> Inauguramos nuestra cafeteria en 1996, desde ese momento compartimos tardes inolvidables junto a muchas personas</p>
+
+  <div class="bg-image bgimagcontacto " >
+
+    <div class="container-fluid">
+      <div class="row justify-content-md-center">
+      <p class="letracontacto martop col-6">Somos una empresa familiar radicada en mar del plata, ubicada a metros de guemes.
+        Inauguramos nuestra cafeteria en 1996, desde ese momento compartimos tardes inolvidables junto a muchas personas.</p>
+
+        <iframe class="multimediacontacto col-6" src="https://www.youtube.com/embed/UzKo4DbHGaw" title="Café vlog #1 un día normal trabajando en una cafetería" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
-   </div>
-  </div> 
-    <form class="container mt-5">
-        <div class="form-group border border-dark">
-            <label>Nombre y apellido</label>
-          <input type="text" class="form-control">
-          <small class="form-text text-muted">
-            <label><h6>Telefono</h6></label>
-          <input type="text" class="form-control">
-          <small class="form-text text-muted">
-            </small>
-          </small>
-    
-          <label for="exampleInputEmail1">Email</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ejemplo@gmail.com">
-        <div class="form-group">
-          <label for="exampleInputPassword1">Contraseña</label>
-          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
+
+      <div class= "container-fluid">
+        <div class="row justify-content-md-center">
+        <form class="border col-12 multimediacontacto border-dark" style="width: 475px ; height:430px">
+          <legend><h2 class="principal--size">Contactanos</h2></legend>
+          <label for="nombres" class="dropdown-item">Nombre y apellido</label>
+           <div><input class="wcontacto" name="nombres" type="text"></div>
+           <label name="telefono" class="dropdown-item"> Numero de telefono</label>
+           <div><input class="wcontacto" name="telefono" type="text"></div>
+           <label for="form1" class="dropdown-item">Motivo</label>
+           <div><input  class="wcontacto"name="form1" placeholder="Interes comercial/Queja" type="text"></div>
+           <label for="email" class="dropdown-item">Escribe tu email</label>
+           <div><input class="wcontacto" name="email" type="text" placeholder="Ej@gmail.com"></div>
+           <label for="contactar" class="dropdown-item">Como te gustaria que te contactemos</label>
+
+           
+          <input name="contactar" type="radio" value="Llamada" >
+          <span class="contactonegrita">Llamada</span>
+          <div><input name="contactar" type="radio" value="Email">
+          <span class="contactonegrita">Email</span></div>
+
+
+          <input class="martop dropdown-item border border-dark" name ="enviar" type="submit" value="Enviar">
+        </form>
+
         </div>
-        <div class="form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Verificar</label>
-        </div>
-        <button type="submit" class="btn btn-primary">Enviar</button>
-      </form>
-    </div>
-  </div>
-              <!-- Footer -->
-<div class="container-fluid">
+      </div>
+                  <!-- Footer -->
+<div class="container-fluid footer">
   <div class="row bgcolornav">
-  <div class="col-2 derechos-footer">Derechos de autor reservados</div>
-  <div class="col-3"></div>
-  <div class="col-7"><p class="principal--footer">Visitanos!</p></div>
+    <!--FOOTER INFO -->
+    <div class="col-3 colorwhite" ><p>Podes encontrarnos en Olavarria 1934</p><p>Horario de atencion : 8hs - 24hs</p> <p>Telefono : 2234029321</p></div>
+    
+      <div class="col-2"></div>
+      <!-- LOGO FOOTER -->
+    <div class="col-2"> </div>
+
+
+   <!-- VISITANOS FOOTER -->
+  <div class="col-5 text-end colorwhite justify-content-md-end"><h5>No pierdas la oportunidad</h5><h4>veni!</h4><h3>Visitanos!</h3></div>
 </div>
 </div>
+</div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init({
-      easing: 'ease-out-back',
-      duration: 1000
-    });
-  </script>
-</body>
+    <script>
+      AOS.init({
+        easing: "ease-out-back",
+        duration: 1000,
+      });
+    </script>
+    <!-- https://github.com/michalsnik/aos/blob/next/README.md Pagina de animaciones-->
+  </body>
 </html>

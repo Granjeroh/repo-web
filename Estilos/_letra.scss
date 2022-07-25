@@ -29,11 +29,6 @@ pxextrasmall : 13px
 }
 
 
-.secondtitle{
-    @extend .principal;
-    @include Sizefont(black, map-get($sizeletras , pxmedium) , 'Times New Roman', lightgrey);
-}
-
 .principal--footer {
     text-transform: uppercase;
     font-size: 20px;
@@ -45,4 +40,24 @@ pxextrasmall : 13px
     font-size: 16px;
 
 }
+
+.contactonegrita {
+    -webkit-text-stroke: 0.7px black;
+}
+
+.btn-primary {
+    align-items: center;
+    display: flex;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+.letracontacto {
+    font-size: 35px;
+    background-color: rgba($color: #ffffff, $alpha: 0.6);
+    font-family: 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+}
+
 

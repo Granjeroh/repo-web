@@ -1,9 +1,41 @@
+.escalado{
+        transition: 0.6s;
+        background-color: black; 
+    
+}
+
 .escalado:hover{
     transform: scale(1.2);
     text-align: initial;
+    background-color: black;
 }
 
 .dropdown:hover .dropdown-menu {
     display: block;
-    margin-top: 0; // remove the gap so it doesn't close
+    margin-top: 0px; // remove the gap so it doesn't close
+ }
+
+ .dropdown-item{
+    transition: 0.6s;
+    color: black;
+    -webkit-text-stroke: 0.7px black;
+    text-align: center;
+ }
+.dropdown-item:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    transform: scale(1.0);
+    
+ }
+
+.dropdown-toggle:hover{
+color: black;
+ }
+
+ .btn-primary1:hover{
+    color: black;
+ }
+
+ .btn-outline-light{
+@extend .btn-primary
  }

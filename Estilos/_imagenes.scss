@@ -32,3 +32,46 @@
     @extend .imagh;
     background-image: url(../imagenes/Imagensalon.webp);
 }
+
+.obcover{
+   object-fit:cover ;
+}
+
+.mar2 {
+margin: 2px;
+}
+
+.martop{
+    margin-top: 10px;
+}
+.marleft{
+    margin-left: 20px;
+}
+
+.imgcard{
+    object-fit: cover;
+}
+
+.foto2 {
+    margin-left: 120px;
+    width: 200px;
+    margin: auto;
+}
+
+.multimediagif {
+    width: 1000px;
+    height: 600px;
+    margin-top: 200px;
+    margin-bottom: 300px;
+}
+
+.wcontacto {
+    width: 450px;
+}
+
+
+.multimediacontacto{
+    @extend .multimediagif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
