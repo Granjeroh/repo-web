@@ -26,12 +26,6 @@ pxextrasmall : 13px
     @include Sizefont(lightgrey, map-get($sizeletras , pxlarge) , 'Times New Roman', black);
 }
 
-.derechos-footer{
-    @extend .principal--footer;
-    font-size: 16px;
-
-}
-
 .contactonegrita {
     -webkit-text-stroke: 0.7px black;
 }
