@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .bgcolornav {
     background-color: rgb(19, 18, 18 , 1);
 }
@@ -15,4 +16,23 @@
     @extend .bgcolornav;
     color: white;
      
+=======
+.bgcolornav {
+    background-color: rgb(19, 18, 18 , 1);
+}
+.bgcolorcard {
+    background-color: rgb(145, 99, 1);
+}
+.colorwhite {
+    color: white;
+}
+.colorboton {
+    color: black;
+}
+
+.whitebackblack {
+    @extend .bgcolornav;
+    color: white;
+     
+>>>>>>> dc076e5495a0c11a95b05f18c76f1a759fa728a8
 }
