@@ -55,12 +55,10 @@
   width: 100%;
 }
 
-.imheight {
-  height: auto;
-}
-
 .imgcard {
   height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .bgimagcafe {
@@ -80,11 +78,6 @@
   background-image: url(../imagenes/Imagensalon.webp);
 }
 
-.obcover {
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
 .mar2 {
   margin: 2px;
 }
@@ -95,11 +88,6 @@
 
 .marleft {
   margin-left: 20px;
-}
-
-.imgcard {
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
 .foto2 {
@@ -181,6 +169,12 @@
   color: white;
 }
 
+nav {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
 body {
   margin: 0;
   position: relative;
@@ -192,7 +186,7 @@ body {
   height: 120px;
   position: absolute;
   bottom: 0;
-  width: 98.5%;
+  width: 100%;
 }
 
 @media (max-width: 767px) {
