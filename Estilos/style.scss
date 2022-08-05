@@ -10,7 +10,12 @@
 @import "animaciones";
 @import "colores";
 
+nav{
+    margin: 0;
+    padding: 0;
+    position: relative;
 
+}
 
 body {
     margin: 0;
@@ -23,7 +28,7 @@ body {
     height:120px;
     position: absolute;
     bottom: 0;
-    width: 98.5%;
+    width: 100%;
 }
 
 @media (max-width: 767px) {

@@ -7,8 +7,6 @@ pxextrasmall : 13px
 );
 
 
-
-
 @mixin Sizefont ($color, $fontsize, $fontfamily, $bcolor) {
     color: $color;
     font-size: $fontsize;
@@ -26,13 +24,6 @@ pxextrasmall : 13px
 .principal--size{
     @extend .principal;
     @include Sizefont(lightgrey, map-get($sizeletras , pxlarge) , 'Times New Roman', black);
-}
-
-
-.principal--footer {
-    text-transform: uppercase;
-    font-size: 20px;
-    color: white;
 }
 
 .derechos-footer{

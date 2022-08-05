@@ -6,13 +6,9 @@
     width: 100%;
 }
 
-.imheight {
-    height: auto;
-    
-}
-
 .imgcard {
     height: 400px;
+    object-fit: cover;
 }
 
 .bgimagcafe {
@@ -24,7 +20,7 @@
 }
 
 .alturafooter {
-    height: 100px;
+    height: 100px ;
 }
 
 
@@ -33,9 +29,6 @@
     background-image: url(../imagenes/Imagensalon.webp);
 }
 
-.obcover{
-   object-fit:cover ;
-}
 
 .mar2 {
 margin: 2px;
@@ -46,10 +39,6 @@ margin: 2px;
 }
 .marleft{
     margin-left: 20px;
-}
-
-.imgcard{
-    object-fit: cover;
 }
 
 .foto2 {
